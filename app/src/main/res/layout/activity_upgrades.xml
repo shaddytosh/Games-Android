@@ -1,0 +1,245 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/money"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/money_placeholder"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/upgrade1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/money"
+                android:layout_alignEnd="@+id/upgrade2"
+                android:layout_toStartOf="@+id/button1"
+                android:fontFamily="sans-serif-thin"
+                android:padding="20dp"
+                android:text="@string/upgrade1"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/money"
+                android:layout_alignParentEnd="true"
+                android:layout_toEndOf="@+id/upgrade2"
+                android:fontFamily="sans-serif-thin"
+                android:hint="@string/price1"
+                android:onClick="buyUpgrade"
+                android:padding="20dp"
+                android:tag="1"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/upgrade2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/upgrade1"
+                android:layout_alignBaseline="@+id/button2"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@+id/button2"
+                android:fontFamily="sans-serif-thin"
+                android:padding="20dp"
+                android:text="@string/upgrade2"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button1"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="sans-serif-thin"
+                android:hint="@string/price2"
+                android:onClick="buyUpgrade"
+                android:padding="20dp"
+                android:tag="2"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/upgrade3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/upgrade2"
+                android:layout_alignBaseline="@+id/button3"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@+id/button3"
+                android:fontFamily="sans-serif-thin"
+                android:padding="20dp"
+                android:text="@string/upgrade3"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button2"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="sans-serif-thin"
+                android:hint="@string/price3"
+                android:onClick="buyUpgrade"
+                android:padding="20dp"
+                android:tag="3"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/upgrade4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/upgrade3"
+                android:layout_alignBaseline="@+id/button4"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@+id/button4"
+                android:fontFamily="sans-serif-thin"
+                android:padding="20dp"
+                android:text="@string/upgrade4"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button3"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="sans-serif-thin"
+                android:hint="@string/price4"
+                android:onClick="buyUpgrade"
+                android:padding="20dp"
+                android:tag="4"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/upgrade5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/upgrade4"
+                android:layout_alignBaseline="@+id/button5"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@+id/button5"
+                android:fontFamily="sans-serif-thin"
+                android:padding="20dp"
+                android:text="@string/upgrade5"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button4"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="sans-serif-thin"
+                android:hint="@string/price5"
+                android:onClick="buyUpgrade"
+                android:padding="20dp"
+                android:tag="5"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/upgrade6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/upgrade5"
+                android:layout_alignBaseline="@+id/button6"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@+id/button6"
+                android:fontFamily="sans-serif-thin"
+                android:padding="20dp"
+                android:text="@string/upgrade6"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button5"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="sans-serif-thin"
+                android:hint="@string/price6"
+                android:onClick="buyUpgrade"
+                android:padding="20dp"
+                android:tag="6"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/upgrade7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/upgrade6"
+                android:layout_alignBaseline="@+id/button7"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@+id/button7"
+                android:fontFamily="sans-serif-thin"
+                android:padding="20dp"
+                android:text="@string/upgrade7"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button6"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="sans-serif-thin"
+                android:hint="@string/price7"
+                android:onClick="buyUpgrade"
+                android:padding="20dp"
+                android:tag="7"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/again"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button7"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="0dp"
+                android:fontFamily="sans-serif-thin"
+                android:gravity="center_horizontal"
+                android:hint="@string/again"
+                android:onClick="again"
+                android:padding="20dp"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/main_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="51dp"
+                android:layout_below="@+id/again"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="sans-serif-thin"
+                android:gravity="center_horizontal"
+                android:hint="@string/back"
+                android:onClick="mainMenu"
+                android:padding="20dp"
+                android:textSize="10sp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Spiel</string>
+    <string name="player_s_rocket">Rakete des Spielers</string>
+    <string name="background">Hintergrund</string>
+    <string name="_0000000">0000000</string>
+    <string name="first_tile" />
+    <string name="enter_user_name">Benutzernamen eingeben</string>
+    <string name="process_user_name">Bestätigen</string>
+    <string name="upgrade1">Freie Kugeln! Jede Kugel kostet jetzt $0. (Sehr gute Investition!)</string>
+    <string name="price1">Kaufen: $1000</string>
+    <string name="upgrade2">Moderne Kugeln: doppelt so schnell!</string>
+    <string name="price2">Kaufen: $1.5k</string>
+    <string name="upgrade3">Rechte Waffe entsperren</string>
+    <string name="price3">Kaufen: $50k</string>
+    <string name="upgrade4">Maschinengewehre: sehr schnell schiessen!</string>
+    <string name="price4">Kaufen: $250k</string>
+    <string name="upgrade5">Kugelnwolke</string>
+    <string name="price5">Kaufen: $1m</string>
+    <string name="upgrade6">Wand der Kugeln: jeder wird sterben!</string>
+    <string name="price6">Kaufen: $100m</string>
+    <string name="upgrade7">Geldmultiplikator 1%</string>
+    <string name="price7">Kaufen: $100</string>
+    <string name="bought">Gekauft ✓</string>
+    <string name="money_placeholder">Geld:</string>
+    <string name="play_platformer">Platformer spielen</string>
+    <string name="play_alien_defense">Alien Defense spielen</string>
+    <string name="play_zombies_vs_plants">Zombies Vs. Plants spielen</string>
+    <string name="play_texas_poker">Texas Poker spielen</string>
+    <string name="rules_text">Zu Beginn des Spiels erhalten Sie 5 Karten. In jeder Runde sehen Sie 3 neue Karten.
+        Sie können eine davon auswählen und mit einer Ihrer Handkarten tauschen. Ziel ist es, nach 3 Runden des Austauschs
+        den höchsten Rang zu erreichen. Der Rang wird unten angezeigt:</string>
+    <string name="start_game">Startbereit</string>
+    <string name="change_text">Wählen Sie eine von drei Karten aus</string>
+    <string name="hand">Handkarten</string>
+    <string name="pass">Keine Änderung</string>
+    <string name="gamechooser_v3">SuperSpieler v3</string>
+    <string name="create_account">Konto erstellen</string>
+    <string name="login">Anmeldung</string>
+    <string name="main_menu">Hauptmenü</string>
+    <string name="choose_level">Ebene wählen</string>
+    <string name="view_statistics">Statistiken</string>
+    <string name="again">Noch einmal!</string>
+    <string name="select_language">Sprache ändern</string>
+    <string name="about">Autorinnen</string>
+    <string name="change_language">Sprache ändern</string>
+    <string name="welcome_string">begrüße %1$s </string>
+    <string name="enter_password">Passwort eingeben</string>
+    <string name="log_out">Ausloggen</string>
+    <string name="visitor_login">Besucher Login</string>
+    <string name="back">Zurück zur Levelauswahl</string>
+</resources>

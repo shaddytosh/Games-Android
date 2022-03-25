@@ -1,0 +1,29 @@
+Dear group_0632
+
+This semester, we talked about MVP, the Model-View-Presenter architecture. It has many advantages, particularly when working with Android. As you can see from your project, your activity classes have methods that are specific to Android. If you encapsulate the rest of your code sufficiently, it is possible to port it to another platform simply by creating a new UI (for example, a website).
+
+Encapsulation can take on many forms. You can package your View classes together. You can ensure that your dependencies go one-way, towards the inner more abstract layers. You can incorporate SOLID principles as much as possible and design patterns where they make sense.
+Here is feedback that is specific to your project:
+
+You made good use of visibility modifiers and inheritance, such as in DynamicGameObject where drawing enables extensibility. Also, all of your classes are well encapsulated and could easily be extended to include extra features.
+You used a few design patterns, such as the factory pattern. Using PlantSpawnQueue and ZombieFactory to handle creation of these objects was a good design decision. Additionally, good thinking on marking objects for removal to avoid OutOfMemory errors and performance issues.
+
+The user sees a simple but well designed user interface that allows the user to change language or login as a guest. There are four levels that have statistics and achievements that are shared. Some of the games are more complex and have extra customizations available. 
+
+A good next step would be to create a new class that persists in the database instead of an ArrayList<Object> and remembering which index contains password or statistics. In addition, refactoring the static PermanentStatistics at ChooseLevelActivity since games shouldn’t have access to statistics of other games. You can also refactor PlatformerGameObject and the abstract classes in it, for example Coin doesn’t make sense to inherit jump(), and it shouldn’t inherit methods just to leave them uninitialized. 
+
+Additionally, MVP architecture can be improved, and clean architecture can be followed, by reducing unnecessary dependencies, for example ZombiesVsPlantsActivity and ZombiesController shouldn’t both depend on each other.
+
+Including Javadocs consistently in your code would make it much more readable and would remove the need for the block comments you have in the middle of methods. These comments are distracting to someone reading the code, and really belong in the Javadoc. Also many comments are unnecessary since the code’s behaviour is apparent from the naming. 
+
+Refactoring your methods to use helper classes would reduce the duplicate code you have in your Activity classes and your Character class, thus making your methods and classes a more manageable size. Some of your classes also have many responsibilities, such as the ZombieVsPlantsController, which violates the single responsibility principle. You also use static variables and methods in a few places where it is not appropriate. Generally, static variables and methods make your code more difficult to test and to extend.
+
+Your package structure has consistent and well named packages. However, some classes within packages were not closely related. Better sorting within each package, or the introduction of more refined packages, would have improved navigation for your team during the demo and make it easier for new team members to learn and work with your code.
+
+Maybe consider removing the dead code from phase 1, and/or what was not implemented in phase 2. It is hard as the reader to understand what the code does with extra variables and methods that are not used, and your code will look much more professional without it.
+
+We hope that you enjoyed working on this project and found it a useful learning experience.
+
+Cheers,
+The CSC207 Instructional Team
+

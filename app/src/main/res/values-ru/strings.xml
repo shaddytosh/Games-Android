@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Игра</string>
+    <string name="player_s_rocket">Ракета игрока</string>
+    <string name="background">Задний план</string>
+    <string name="_0000000">0000000</string>
+    <string name="first_tile" />
+    <string name="enter_user_name">Введите имя пользователя</string>
+    <string name="process_user_name">Сохранить</string>
+    <string name="upgrade1">Бесплатные пули! Пули теперь ничего не стоют.</string>
+    <string name="price1">Купить за штуку</string>
+    <string name="upgrade2">Современные пулемёты: стреляют в два раза быстрее.</string>
+    <string name="price2">Взять за полторы</string>
+    <string name="upgrade3">Стрелять из обеих пулемётов</string>
+    <string name="price3">$50 000</string>
+    <string name="upgrade4">Автовинтовки, стреляют ещё быстрее</string>
+    <string name="price4">$250 000</string>
+    <string name="upgrade5">Дождь из пуль!</string>
+    <string name="price5">Миллион</string>
+    <string name="upgrade6">Великая стена</string>
+    <string name="price6">Сто милл.</string>
+    <string name="upgrade7">Умножатель денег: зарабатывайте на 1% больше!</string>
+    <string name="price7">Стольник</string>
+    <string name="bought">Куплено</string>
+    <string name="money_placeholder">Бабла сколько:</string>
+    <string name="play_platformer">Марио отдыхает</string>
+    <string name="play_alien_defense">Защита родины</string>
+    <string name="play_zombies_vs_plants">Зомби и растения</string>
+    <string name="play_texas_poker">Играть в Техасский покер</string>
+    <string name="rules_text">В начале игры вы получите 5 карт, в каждом раунде вы увидите 3 новые карты,
+        вы можете выбрать одну из них и обменять на одну из своих карт. Цель состоит в том, чтобы получить
+        высший ранг после 3 раундов обмена. Ранг показан ниже:</string>
+    <string name="start_game">Готов к запуску</string>
+    <string name="change_text">Выберите одну из трех карт</string>
+    <string name="hand">hand cards</string>
+    <string name="pass">без изменений</string>
+    <string name="gamechooser_v3">Игровыбиратель v3.0</string>
+    <string name="create_account">Создать учётную запись пользователя</string>
+    <string name="login">Залогиниться</string>
+    <string name="main_menu">Главное меню</string>
+    <string name="choose_level">Выбор уровня</string>
+    <string name="view_statistics">Статистика</string>
+    <string name="again">Ещё раз!</string>
+    <string name="select_language">Выбор Языка</string>
+    <string name="about">Создатели</string>
+    <string name="change_language">Поменять Язык</string>
+    <string name="welcome_string">добро пожаловать %1$s</string>
+    <string name="enter_password">Введите пароль</string>
+    <string name="log_out">выйти</string>
+    <string name="visitor_login">логин посетителя</string>
+    <string name="back">Вернуться к выбору уровня</string>
+</resources>

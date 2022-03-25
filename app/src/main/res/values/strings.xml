@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Game</string>
+    <string name="player_s_rocket">Player\'s rocket</string>
+    <string name="background">Background</string>
+    <string name="_0000000">0000000</string>
+    <string name="first_tile" />
+    <string name="enter_user_name">Enter User Name</string>
+    <string name="process_user_name">Confirm</string>
+    <string name="upgrade1">Free bullets! Each shot now costs $0. (Pays for itself in five shots!)</string>
+    <string name="price1">Buy for $1k</string>
+    <string name="upgrade2">Modern bullets: fire twice as fast.</string>
+    <string name="price2">Buy for $1.5k</string>
+    <string name="upgrade3">Unlock right-side gun</string>
+    <string name="price3">Buy for $50k</string>
+    <string name="upgrade4">Machine guns: fire constantly</string>
+    <string name="price4">Buy for $250k</string>
+    <string name="upgrade5">Spray bullets!</string>
+    <string name="price5">Buy for $1m</string>
+    <string name="upgrade6">Wall of bullets: let zero aliens through.</string>
+    <string name="price6">Buy for $100m</string>
+    <string name="upgrade7">Money multiplier: earn 1% more money</string>
+    <string name="price7">Buy for $100</string>
+    <string name="bought">Bought</string>
+    <string name="money_placeholder">Money:</string>
+    <string name="play_platformer">Play Platformer</string>
+    <string name="play_alien_defense">Play Alien Defense</string>
+    <string name="play_zombies_vs_plants">Play Zombies Vs. Plants</string>
+    <string name="play_texas_poker">Play Texas Poker</string>
+    <string name="rules_text">You will got 5 cards at the beginning of the game, in every round you can see 3 new cards,
+        you can choose one of it and exchange it with one of your hand cards. Goal is to get highest rank after
+        3 rounds of exchanging. The rank is shown below:</string>
+    <string name="start_game">Ready to start</string>
+    <string name="pass">no change</string>
+    <string name="change_text">Pick one of three cards</string>
+    <string name="hand">hand cards</string>
+    <string name="gamechooser_v3">GameChooser v3</string>
+    <string name="create_account">Create Account</string>
+    <string name="login">Login</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="choose_level">Choose Level</string>
+    <string name="view_statistics">View statistics</string>
+    <string name="again">Again!</string>
+    <string name="select_language">Select Language</string>
+    <string name="about">About</string>
+    <string name="change_language">Change Language</string>
+    <string name="welcome_string"> Welcome %1$s </string>
+    <string name="enter_password">Enter Password</string>
+    <string name="log_out">Log out</string>
+    <string name="visitor_login">Visitor login</string>
+    <string name="back">Back To Choose Level</string>
+</resources>
